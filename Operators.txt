@@ -1,0 +1,148 @@
+Operators:
+Operators means symbols to perform operations on operators[+,-,*,/]
+EX:a+b
+here a means operands
+b means operators
+Arithemetic operators:
+It is used to performing arithemetic operartions
+Syntax:operand1+operand2;
+operand1-operand2;
+Program:
+public class ArithemeticOperator
+{
+public static void main (String[] args)
+{
+System.out.println(a+b);
+System.out.println(a-b);
+System.out.println(a*b);
+System.out.println(a/b);
+System.out.println(a%b);
+}
+}
+Output:
+13
+7
+30
+3
+1
+Increment Operator(++):
+It increments the value by 1
+Decrement Operator(--):
+It decrements the value by 1
+Program:
+public class UnaryOperator
+{
+public static void main(String[] args)
+{
+int a=10;
+System.out.println(a++);
+System.out.println(++a);
+System.out.println(a--);
+System.out.println(--a);
+System.out.println(-a);
+System.out.println(+a);
+}
+}
+Shift Operator(<<,>>):
+public class ShiftOperator
+{
+public static void main(String[] args)
+{
+int a=10;
+System.out.println(a<<2);
+System.out.println(a>>2);
+}
+}
+Relational Operators:
+These operators are used to check the relations between two values.It returns the boolean result
+Syntax:
+val1=val2;
+val1!val2;
+val1>val2;
+val1>=val2;
+Program:
+public class RelationalOperator
+{
+public static void main(String[] args)
+{
+int a=2,b=3;
+System.out.println(a>=b);
+System.out.println(a==b);
+System.out.println(a!=b);
+System.out.println(a<b);
+System.out.println(a>b);
+}
+}
+Assignment operator:
+The assignment operator is used to assign value of a variable.The value given on the right hand side of the operator is assigned to the variable of the left
+Syntax:variable_name=value;
+program:
+public class AssignmentOperator
+{
+public static void main(String[] args)
+{
+int a;
+System.out.println(a=5);
+System.out.println(a+=1);//a=a+1
+System.out.println(a*=4);
+System.out.println(a/=6);
+}
+}
+Logical Operators:
+Logical And:will  return true if both conditions are true
+Logical or:It will return true if atleast one condition is true
+Logical NOT:It is used to reverse the state of the variable
+Syntax:
+cond1&&cond2;
+cond1||cond2;
+Program:
+public class LogicalOPerator
+{
+public static void main(String[] args)
+{
+int a=2,b=3,c=5;
+System.out.println(a>b&&a<c);
+System.out.println(a>b||a<c);
+}
+}
+Bitwise operators:
+Bitwise OR(||):
+This operator is a binary operator,denoted by 1 either of the bits are 1,it gives 1,else it gives 0
+Bitwise AND(||):
+This operator is a binary operator,denoted by & both  bits are 1,it gives 1,else it gives 0
+Program:
+public class BitwiseOPerator
+{
+public static void main(String[] args)
+{
+int a=2,b=3,c=5;
+System.out.println(a|b);
+System.out.println(a&c);
+}
+}
+Ternary Operators:
+The ternary operators is an alternate version of the if-else statement.It is based on condition 
+Syntax:
+Condition ?first statement:second statement;
+Program:
+public class TernaryOPerator
+{
+public static void main(String[] args)
+{
+int a=10,b=5;
+int max=(a>b)?a:b;
+System.out.println(max);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
