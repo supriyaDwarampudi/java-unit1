@@ -1,0 +1,13 @@
+OOPS:
+oops is amethod to design program by using classes and objects
+*It is used to improve code reusubility and readbility by defining java program efficiency
+* oops in java to improve code and helps to keep the code easier to maintain modify and debug
+oops concept contain 6 principles
+1.Object
+2.class
+3.Encapsulation
+4.Inheritance
+5.polymorphism
+6.Data Abstraction
+Object:
+Object are also called  copy of a class which are created from class in java.It contains states and behaviour 
