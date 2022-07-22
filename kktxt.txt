@@ -11,3 +11,4 @@ oops concept contain 6 principles
 6.Data Abstraction
 Object:
 Object are also called  copy of a class which are created from class in java.It contains states and behaviour 
+Program:
