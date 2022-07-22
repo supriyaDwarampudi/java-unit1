@@ -1,0 +1,10 @@
+Implict conversion:
+The conversion of lower datatype into higher datatype is called Implict conversion
+EX:
+int a=20;
+float b=20;
+Explict conversion:
+The conversion of higher datatype into higher datatype is called Implict conversion
+EX:
+int a=20;
+float b=20;
